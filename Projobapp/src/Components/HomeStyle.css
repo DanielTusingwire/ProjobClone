@@ -137,13 +137,32 @@ margin: 0;
 
 .middleSection{
     background-color: #000000;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     position: absolute;
     z-index: 999;
     top: 730px;
+    display: flex;
 }
+.middleSection .textContainer{
+    color: #fff;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.middleSection .textContainer h1{
+    color: #fff;
+    font-family: panchange-semibold;
+    font-size: 40px;
+}
+.middleSection .imageContainer{
+    width: 50%;
+    margin-right: 100px;
+} 
 
+.middleSection .imageContainer img{
+    width: 100%;
+} 
 
 @media screen and (min-width: 1525px) {
 }
