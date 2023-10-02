@@ -32,17 +32,33 @@
     
 }
 
-.navMenu a:hover{
-    color:#2AD883 ;
-    /* font-size: 18px; */
-    background-color: #24C1A8;
-    transition: all .5s ease-in-out;
-}
 .navMenu a{
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
 
+}
+
+.navMenu a::after{
+    content: "";
+    display: block;
+    background-color: #2AD883;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s ease;
+    transition: 0.3s ease;
+
+}
+.navMenu a:hover{
+    color: #2AD883;
+    transition: 0.3s ease;
+}
+.navMenu a:hover::after{
+    width: 100%;
+    transition: width 0.3s ease;
 }
 
 .logo-menuitem{
