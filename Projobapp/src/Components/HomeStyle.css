@@ -142,16 +142,32 @@ margin: 0;
     position: absolute;
     z-index: 999;
     top: 730px;
+    padding: 100px;
+}
+
+.middleSectionChild1{
+ 
     display: flex;
 }
 .middleSection .textContainer{
     color: #fff;
     width: 50%;
-    margin-left: 100px;
+    margin-left: 0x;
     margin-top: 100px;
 }
 .middleSection .textContainer h1{
     color: #fff;
+    font-family: panchange-semibold;
+    font-size: 40px;
+}
+.middleSection .textContainer p{
+    font-size: 1.2rem;
+    width: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.middleSection .textContainer h1 .greencolor{
+    color: #2AD883;
     font-family: panchange-semibold;
     font-size: 40px;
 }
@@ -163,6 +179,89 @@ margin: 0;
 .middleSection .imageContainer img{
     width: 100%;
 } 
+.middleSection .middleSectionChild2 .bigtext{
+    color:#2AD883;
+    font-family: panchange-semibold;
+    margin-top: -100px;
+    width: 80%;
+    font-size: 35px;
 
+}
+
+.middleSection .middleSectionChild2 .arrow img{
+    width: 250px;
+    position: relative;
+    left: 495px;
+    top: -100px;
+}
+
+.middleSection .middleSectionChild2 .button{
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 53%;
+    top: -200px;
+    border-radius: 50px;
+    width: 350px;
+    height: 68px;
+    background-color: #2AD883;
+    border: none;
+  cursor: pointer;
+    align-items: center;
+    align-content: center;
+}
+.middleSection .middleSectionChild2 .button:hover{
+    box-shadow: 8px 8px 10px  rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+.middleSection .middleSectionChild2 .button h6{
+    font-size: 20px;
+    font-family: panchange-semibold;
+    margin-left: 30px;
+    margin-right: 0;
+    padding: 0;
+}
+
+.middleSection .middleSectionChild2 .button img{
+    margin-right: 30px;
+}
+
+.middleSection .middleSectionChild3{
+    margin-top: -100px;
+    display: flex;
+}
+.middleSection .textContainer3{
+    color: #fff;
+    width: 50%;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.middleSection .textContainer3 h1{
+    color: #fff;
+    font-family: panchange-semibold;
+    font-size: 40px;
+}
+
+.middleSection .textContainer3 p{
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.middleSection .textContainer3 h1 .greencolor{
+    color: #2AD883;
+    font-family: panchange-semibold;
+    font-size: 40px;
+}
+
+.middleSection .imageContainer3{
+    width: 50%;
+    margin-right: 100px;
+} 
+
+.middleSection .imageContainer3 img{
+    width: 100%;
+} 
 @media screen and (min-width: 1525px) {
 }
