@@ -3,6 +3,7 @@ import HeroArrow from "../Assets/Arrow.svg"
 import Elips from "../Assets/Ellipse.svg"
 import image1 from '../Assets/Component.svg'
 import arrow8 from '../Assets/Arrow8.svg'
+import image3 from '../Assets/Component0.svg'
 import btnarrow from '../Assets/buttonarrow.svg'
 import "./HomeStyle.css";
 
@@ -63,6 +64,20 @@ export const Home = () => {
                          {/* <button className='btnclick'>Click here to Get <img src={btnarrow}/></button> */}
 
                         
+                    </div>
+
+                    <div className='middleSectionChild3'>
+                    <div className='imageContainer3'>
+                        <img src={image3}></img>
+                        
+                    </div>
+                    <div className='textContainer3'>
+                        
+                        <h1>About <span className='greencolor'>Projob </span> </h1>
+                        <p>ProJob is a game-changing coaching program specifically designed to support and guide fresh graduates in confidently launching their careers and securing employment faster. Through personalized coaching from accomplished professionals, we strive to equip young individuals with the essential skills and self-assurance necessary to land their first professional job. With Pro</p>
+
+                    </div>
+                 
                     </div>
 
                     
