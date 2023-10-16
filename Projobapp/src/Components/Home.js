@@ -80,6 +80,27 @@ export const Home = () => {
                  
                     </div>
 
+                    <div className='services'>
+                        <h1 className='serviceHeader'>Our <span>services</span></h1>
+                        <div className='cardContainer'>
+                            <div className='Cards'>
+                                <h1 className='cardHeader'>Personal career coaching</h1>
+                                <p className='cardPara'>At ProJob, we understand that every graduate is unique, and so are their career goals. Our accomplished professionals work closely with you to tailor personalized coaching to your specific needs. We help you develop essential skills and self-confidence to secure your first professional job. Our coaching covers a wide range of crucial aspects, from identifying in-demand job opportunities to honing skills like communication, critical thinking, writing, and pitching. We'll also guide you in mastering the art of resume writing, job search tactics, and winning interview techniques. With ProJob's support, you'll become a highly competitive candidate in the job market.</p>
+                            </div>
+                           
+                            <div className='Cards'>
+                                <h1 className='cardHeader'>Personal career coaching</h1>
+                                <p className='cardPara'>At ProJob, we understand that every graduate is unique, and so are their career goals. Our accomplished professionals work closely with you to tailor personalized coaching to your specific needs. We help you develop essential skills and self-confidence to secure your first professional job. Our coaching covers a wide range of crucial aspects, from identifying in-demand job opportunities to honing skills like communication, critical thinking, writing, and pitching. We'll also guide you in mastering the art of resume writing, job search tactics, and winning interview techniques. With ProJob's support, you'll become a highly competitive candidate in the job market.</p>
+                            </div>
+
+                            <div className='Cards'>
+                                <h1 className='cardHeader'>Personal career coaching</h1>
+                                <p className='cardPara'>At ProJob, we understand that every graduate is unique, and so are their career goals. Our accomplished professionals work closely with you to tailor personalized coaching to your specific needs. We help you develop essential skills and self-confidence to secure your first professional job. Our coaching covers a wide range of crucial aspects, from identifying in-demand job opportunities to honing skills like communication, critical thinking, writing, and pitching. We'll also guide you in mastering the art of resume writing, job search tactics, and winning interview techniques. With ProJob's support, you'll become a highly competitive candidate in the job market.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
                     
                     
 
