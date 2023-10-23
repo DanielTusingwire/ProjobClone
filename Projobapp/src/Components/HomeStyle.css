@@ -10,6 +10,10 @@ margin: 0;
 
 
 }
+@media screen and (max-width: 767px) {
+  
+}
+
 .hero{
     align-items: center;
     align-content: center;
@@ -258,10 +262,210 @@ margin: 0;
 .middleSection .imageContainer3{
     width: 50%;
     margin-right: 100px;
+    margin-top: 100px;
 } 
 
 .middleSection .imageContainer3 img{
     width: 100%;
 } 
-@media screen and (min-width: 1525px) {
+
+.services{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.services .serviceHeader{
+color: white;
+font-family: panchange-semibold;
+font-size: 40px;
+margin-left: 30%;
+width: 250px;
+text-align: center;
+}
+
+.services .serviceHeader span{
+    color: #2AD883;
+}
+
+.services .cardContainer{
+    width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 50px;
+
+
+}
+
+.services .cardContainer .Cards{
+    /* width: 327px; */
+    /* height: 432px; */
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 1px solid #2AD883;
+    box-shadow: 10px 10px 0px rgb(48, 216, 100);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.Cards .cardHeader{
+    color: #2AD883;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: panchange-semibold;
+}
+
+.Cards .cardPara{
+    color: #fff;
+    font-size: 12px;
+}
+@media screen and (min-width: 1600px) {
+    .hero p{
+        padding-top: 150px;
+        margin-left: 400px;
+        font-size: 80px;
+        width: 1500px;
+    }
+     .hero .hero-arrow{
+        margin-left: 830px;
+        margin-top: -20px;
+       
+     }
+
+     .hero .hero-button button{
+        margin-left: 780px;
+        margin-top: 50px;
+        border-radius: 50px;
+        width: 320px;
+        height: 68px;
+        background-color: #2AD883;
+        border: none;
+        font-size: 20px;
+        font-family: panchange-semibold;
+     }
+
+     .middleSection{
+        background-color: #000000;
+        /* height: 100%; */
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        top: 830px;
+       
+    }
+    
+    .middleSectionChild1{
+     
+        display: flex;
+    }
+    .middleSection .textContainer{
+        color: #fff;
+        width: 40%;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .middleSection .textContainer h1{
+        color: #fff;
+        font-family: panchange-semibold;
+        font-size: 50px;
+    }
+    .middleSection .textContainer p{
+        font-size: 1.5rem;
+       
+        
+    }
+
+    .middleSection .imageContainer{
+        width: 40%;
+        margin-right: 100px;
+    } 
+    
+    .middleSection .imageContainer img{
+        width: 100%;
+    } 
+
+    .hero .hero-elips{
+        position: absolute;
+        top: 550px;
+        width: 100%;
+        left: 400px;
+        z-index: 0;
+    }
+        .hero .hero-elips img{
+        width: 1000px;
+    }
+
+    .middleSection .middleSectionChild2 .bigtext{
+    
+        margin-top: 00px;
+        width: 60%;
+        margin-left: 150px;
+    
+    
+    }
+    
+    .middleSection .middleSectionChild2 .arrow img{
+        width: 250px;
+        position: relative;
+        left: 595px;
+        top: -100px;
+    }
+    
+    .middleSection .middleSectionChild2 .button{
+    
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        left: 48%;
+        top: -150px;
+        border-radius: 50px;
+        width: 350px;
+        height: 68px;
+        background-color: #2AD883;
+        border: none;
+      cursor: pointer;
+        align-items: center;
+        align-content: center;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    /* for mobile devices */
+
+    .hero{
+        align-items: center;
+        align-content: center;
+        background-color: #000000;
+        height: 00px;
+        width: 100%;
+    }
+    .hero p{
+        padding-top: 150px;
+        margin-left: 100px;
+        font-size: 60px;
+        width: 100%;
+    }
+     .hero .hero-arrow{
+        margin-left: 230px;
+        margin-top: -20px;
+       
+     }
+
+     .hero .hero-button button{
+        margin-left: 120px;
+        margin-top: 50px;
+        border-radius: 50px;
+        width: 320px;
+        height: 68px;
+        background-color: #2AD883;
+        border: none;
+        font-size: 20px;
+        font-family: panchange-semibold;
+     }
 }
